@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1375</width>
+    <height>854</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_heading">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>1231</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 182, 0);</string>
+    </property>
+    <property name="text">
+     <string>                            CROP GUIDE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_season">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>210</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Season</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>210</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Kharif</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rabi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zaid</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_state">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>330</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>State</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>330</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Chandigarh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Delhi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Haryana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Himachal Pradesh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jammu  Kashmir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ladakh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Punjab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rajasthan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uttarakhand</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uttar Pradesh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Madhya Pradesh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>West Bengal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bihar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gujarat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Andhra Pradesh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Karnataka</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kerala</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lakshadweep</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Puducherry</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tamil Nadu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Telangana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chennai</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bengaluru</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hyderabad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kochi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Warangal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Thiruvananthapuram</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Coimbatore</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Visakhapatanam</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mysuru</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Madurai</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vijayawada</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kozhikode</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_Acres">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>440</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Acres</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_Acres">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>450</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Budget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>540</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Budget</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_Budget">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>550</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_submit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>650</y>
+      <width>231</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>SUBMIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_image">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>130</y>
+      <width>791</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Desktop/091a0e2f-b93d-481b-9a60-db520c87ec33.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_info">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>600</y>
+      <width>791</width>
+      <height>161</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1375</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
